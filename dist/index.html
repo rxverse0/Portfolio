@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="p-4">
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      class="fixed bottom-20 right-20 bg-blue-400 text-white cursor-pointer p-4 rounded-full text-lg"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-arrow-bar-to-up"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="#2c3e50"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 10l0 10" />
+        <path d="M12 10l4 4" />
+        <path d="M12 10l-4 4" />
+        <path d="M4 4l16 0" />
+      </svg>
+    </button>
+    <nav
+      class="flex flex-col md:flex-row items-center gap-4 container mx-auto my-12"
+    >
+      <img
+        class="w-20 h-20 md:w-40 md:h-40 rounded-full"
+        src="../img/Alina.jpeg"
+        alt="Alina Gradinaru"
+      />
+      <a
+        class="text-2xl"
+        href="https://www.linkedin.com/in/alina-gradinaru-78981b16b/"
+        >Alina Gradinaru</a
+      >
+      <ul class="flex border rounded-full md:ml-auto">
+        <li class="select active-btn px-6 py-4">
+          <a href="#about">About</a>
+        </li>
+        <li class="select px-6 py-4"><a href="#work">Work</a></li>
+        <li class="select px-6 py-4"><a href="#solutions">Solutions</a></li>
+      </ul>
+    </nav>
+
+    <header class="container mx-auto my-6" id="about">
+      <h2 class="text-5xl">I'm Alina, an aspiring web developer</h2>
+      <h4 class="text-xl my-6">
+        This is my portfolio website. Here you can explore my work and skills.
+      </h4>
+
+      <div class="flex gap-1"></div>
+    </header>
+
+    <section class="container mx-auto my-12">
+      <div>
+        <h3 class="text-2xl leading-9 my-6">
+          I am currently studying Software Engineering for my Master's degree at
+          Politehnica University of Bucharest. I am passionate about software
+          development and problem-solving, skilled in paying attention to
+          details and working in teams. My studies give me a solid grip on clear
+          communication and collaboration, which are essential for the
+          fast-paced world of software development. Curious about tech and eager
+          to bring my skills to contribute to further projects.
+
+          <p class="mt-4">
+            I'm familiar with various programming languages, such as Java,
+            JavaScript, Python, HTML5, CSS and i have experience with both SQL
+            and NoSQL databases.
+          </p>
+        <div class="flex gap-2 items-center">
+          <a
+            href="#"
+            class="flex gap-2 items-center font-semibold underline text-lg shrink-0"
+            >Download Resume
+            <span
+              class="bg-blue-400 text-white p-2 rounded-full hover:opacity-80 group"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-arrow-narrow-right transition -rotate-45 group-hover:rotate-0"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#2c3e50"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l14 0" />
+                <path d="M15 16l4 -4" />
+                <path d="M15 8l4 4" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto my-12" id="work">
+      <h2 class="text-5xl mx-auto mb-12">The work I do</h2>
+      <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div>
+          <img src="../img/quotegenerator.jpg" alt="Quote Generator App" />
+          <h3 class="text-2xl">Quote Generator App</h3>
+          <small>Built in 2023</small>
+        </div>
+        <div>
+          <img src="../img/quotegenerator.jpg" alt="Quote Generator App" />
+          <h3 class="text-2xl">Quote Generator App</h3>
+          <small>Built in 2023</small>
+        </div>
+        <div>
+          <img src="../img/quotegenerator.jpg" alt="Quote Generator App" />
+          <h3 class="text-2xl">Quote Generator App</h3>
+          <small>Built in 2023</small>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 p-4 -m-4" id="solutions">
+      <section class="container mx-auto my-12">
+        <h2 class="text-5xl">I can help you with</h2>
+
+        <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div>
+            <p class="text-gray-500 border-b border-gray-500 py-2">01</p>
+            <h3 class="text-2xl my-6">Design</h3>
+            <p class="text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+              nostrum!
+            </p>
+            <ul class="my-6 space-y-3 text-lg">
+              <li><a href="#">Websites</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+              <li><a href="#">Web Apps</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-gray-500 border-b border-gray-500 py-2">02</p>
+            <h3 class="text-2xl my-6">Development</h3>
+            <p class="text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+              nostrum!
+            </p>
+            <ul class="my-6 space-y-3 text-lg">
+              <li><a href="#">Websites</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-gray-500 border-b border-gray-500 py-2">03</p>
+            <h3 class="text-2xl my-6">Full Package</h3>
+            <p class="text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+              nostrum!
+            </p>
+            <ul class="my-6 space-y-3 text-lg">
+              <li><a href="#">Design + Dev</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex gap-1 my-10">
+          <img
+            class="w-14 h-14 rounded-full mr-3"
+            src="../img/Alina.jpeg"
+            alt="Alina Gradinaru"
+          />
+        </div>
+        <small
+          >Don't know if it fits your needs or not?
+          <a class="underline" href="#">Let's have a call</a></small
+        >
+
+        <p
+          class="text-gray-500 border-b border-gray-500 py-2 uppercase mt-8 mb-4"
+        >
+          Social Media
+        </p>
+        <ul class="flex gap-4">
+          <li>
+            <a href="https://www.linkedin.com/in/alina-gradinaru-78981b16b/"
+              >LinkedIn</a
+            >
+          </li>
+          <li><a href="#"></a>GitHub</li>
+          <li>
+            <a href="https://www.instagram.com/gradinaru.alinaa/">Instagram</a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
